@@ -1,0 +1,13 @@
+1. To delete file using regex: find . -name  Chapter\[1-9] | xargs rm
+2. To delete a directory: rm -r dirName
+3. Save as tar: tar -cvzf BackUp.tar.gz ToBe/
+					c = create a new backup archive.
+					v = verbose mode, tar will print what it's doing to the screen.
+					z = compress the backup file with 'gzip' to make it smaller. 
+					f = specifies where to store the backup, backup.tar.gz is the filename used in this 		example. It will be stored in the current working directory, the one you set when you 	  used the cd command.
+
+4. Unzip: tar -xvzf BackUp.tar.gz 
+
+
+
+
