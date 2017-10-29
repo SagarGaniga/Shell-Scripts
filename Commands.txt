@@ -7,7 +7,5 @@
 					f = specifies where to store the backup, backup.tar.gz is the filename used in this 		example. It will be stored in the current working directory, the one you set when you 	  used the cd command.
 
 4. Unzip: tar -xvzf BackUp.tar.gz 
-
-
-
-
+5. Display listing of files modified in a specific month:  ls -l | awk '$6 == "Dec" {print $0}
+ 
